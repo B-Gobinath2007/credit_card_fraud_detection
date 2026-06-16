@@ -1,4 +1,4 @@
-# Virtual Environment
+# Virtual Environment - EXCLUDE
 venv/
 env/
 ENV/
@@ -37,19 +37,8 @@ wheels/
 .DS_Store
 Thumbs.db
 
-# Data and Models  
-data/raw/*.csv
-*.pkl
-*.joblib
-models/trained_models/
-!data/
-!notebooks/
-!reports/
-!models/
-
-# Jupyter
+# Jupyter Cache
 .ipynb_checkpoints/
-*.ipynb
 
 # Environment variables
 .env
