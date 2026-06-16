@@ -37,6 +37,13 @@ wheels/
 .DS_Store
 Thumbs.db
 
+# Large data files (exceeds GitHub 100MB limit)
+*.csv
+*.pkl
+*.joblib
+data/raw/
+models/trained_models/
+
 # Jupyter Cache
 .ipynb_checkpoints/
 
